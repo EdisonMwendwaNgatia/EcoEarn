@@ -27,7 +27,7 @@ export default function Login({ navigation }) {
         <View style={styles.logoCircle}>
           <Text style={styles.logoIcon}>🌱</Text>
         </View>
-        <Text style={styles.appName}>EcoEarn</Text>
+        <Text style={styles.appName}>EcoBin</Text>
         <Text style={styles.tagline}>Earn rewards for a greener tomorrow</Text>
       </View>
 
