@@ -136,7 +136,7 @@ export default function Carts({ route }) {
 
       await MailComposer.composeAsync({
         recipients: ["edinsonbrian95@gmail.com"],
-        subject: "EcoEarn Checkout - Order Confirmation",
+        subject: "EcoBin Checkout - Order Confirmation",
         body: `🌱 Thank you for your eco-friendly purchase!\n\nOrder Summary:\n${body}\n\nSubtotal: $${total.toFixed(
           2
         )}\nPoints Used: ${usedPoints}\nDiscount: -$${savings.toFixed(
