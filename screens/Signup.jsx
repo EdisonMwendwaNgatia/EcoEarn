@@ -41,7 +41,7 @@ export default function Signup({ navigation }) {
         createdAt: new Date().toISOString()
       });
       
-      Alert.alert("Success", "Welcome to EcoEarn! Your eco journey begins now.");
+      Alert.alert("Success", "Welcome to EcoBin! Your eco journey begins now.");
     } catch (error) {
       Alert.alert("Signup failed", error.message);
     }
@@ -53,7 +53,7 @@ export default function Signup({ navigation }) {
         <View style={styles.logoCircle}>
           <Text style={styles.logoIcon}>🌱</Text>
         </View>
-        <Text style={styles.appName}>EcoEarn</Text>
+        <Text style={styles.appName}>EcoBin</Text>
         <Text style={styles.tagline}>Start earning rewards for sustainable choices</Text>
       </View>
 
